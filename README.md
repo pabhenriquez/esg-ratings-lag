@@ -1,6 +1,6 @@
 # Do ESG ratings lag corporate disclosure?
 
-Code and AI-generated ESG scores for *Do ESG ratings lag corporate disclosure? Evidence from generative AI and the SEC human capital mandate*, by Dayana Bravo, Pablo A. Henríquez and Francisco Villegas (Universidad Diego Portales).
+Code and AI-generated ESG scores for *Do ESG ratings lag corporate disclosure? Evidence from generative AI and the SEC human capital mandate*.
 
 ## Contents
 
@@ -57,10 +57,6 @@ Results are written to `OUT_DIR/results`: Tables 1, 2, 3 and B.1 in LaTeX, Figur
 2. `scoring/score.py batch-prepare` and `scoring/score.py batch-run` score each section with the OpenAI Batch API (requires `OPENAI_API_KEY`); `scoring/score.py pilot --dry-run` prints a request without calling the API.
 3. `scoring/report_dates.py` downloads the period of report of each 10-K from the SEC submissions API.
 4. `scoring/export_scores.py` writes the two score files in `data/`.
-
-## Citation
-
-Bravo, D., Henríquez, P. A., Villegas, F. (2026). Do ESG ratings lag corporate disclosure? Evidence from generative AI and the SEC human capital mandate. Working paper, Universidad Diego Portales.
 
 ## License
 
