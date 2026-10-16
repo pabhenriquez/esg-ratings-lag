@@ -1,0 +1,9 @@
+pandas==2.3.3
+numpy==2.2.6
+scipy==1.15.3
+statsmodels==0.15.0
+linearmodels==7.0
+matplotlib==3.10.9
+# scoring only
+tiktoken==0.14.0
+openai>=1.40
